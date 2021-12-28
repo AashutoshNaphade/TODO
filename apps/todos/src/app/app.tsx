@@ -16,16 +16,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import { Todo } from '@myorg/data';
 import { Todos } from '@myorg/ui';
 
-
-//interface Todo {
-//	title: string;
-//}
-
 export function App() {
-	//const [todos, setTodos] = useState<Todo[]>([
-	//	{ title: 'Todo 1' },
-	//	{ title: 'Todo 2' }
-	//]);
 
 	const [todos, setTodos] = useState<Todo[]>([]);
 
@@ -45,15 +36,6 @@ export function App() {
 				setTodos([...todos, newTodo]);
 			});
 	}
-
-	//function addTodo() {
-	//	setTodos([
-	//		...todos,
-	//		{
-	//			title: `New todo ${Math.floor(Math.random() * 1000)}`,
-	//		},
-	//	]);
-	//}
 
 	return (
 		<>
