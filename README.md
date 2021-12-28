@@ -23,12 +23,6 @@ Run `nx serve todos` for a dev server. Navigate to http://localhost:4200/. The a
 
 Run `npx nx storybook ui` to execute the stories via [Storybook](https://storybook.js.org/).
 
-## Running unit tests
-
-Run `nx test todos` to execute the unit tests via [Jest](https://jestjs.io).
-
-Run `nx affected:test` to execute the unit tests affected by a change.
-
 ## Running end-to-end tests
 
 Run `nx e2e todos-e2e --watch` to execute the end-to-end tests via [Cypress](https://www.cypress.io).
