@@ -13,14 +13,6 @@ This project was generated using [Nx](https://nx.dev).
 
 Run `npx install` or `yarn add` to install libraries.
 
-## Generate a library
-
-Run `nx g @nrwl/react:lib my-lib` to generate a library.
-
-> You can also use any of the plugins above to generate libraries as well.
-
-Libraries are shareable across libraries and applications. They can be imported from `@myorg/mylib`.
-
 ## Development server
 
 Run `nx serve api` for a dev server. It will runs the api on http://localhost:3333/.
